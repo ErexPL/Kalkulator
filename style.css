@@ -1,0 +1,84 @@
+* {
+
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 30px;
+
+}
+
+input {
+
+    width: 380px;
+    height: 100px;
+    padding: 75px 0px 50px 75px;
+    border: none;
+    color: white;
+    background-color: black;
+    text-align: right;
+    font-size: 125px;
+
+}
+
+button {
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 1000px;
+    color: white;
+    font-size: 50px;
+    background-color: #333333;
+    transition: all 0.2s;
+
+}
+
+button:active {
+
+    transition: none;
+    color: black;
+    background-color: white;
+
+}
+
+button:hover {
+
+    scale: 1.05;
+
+}
+
+.grey {
+
+    color: black;
+    background-color: #a5a5a5;
+
+}
+
+.orange {
+
+    background-color: #f19938;
+
+}
+
+.wide {
+
+    width: 220px;
+
+}
